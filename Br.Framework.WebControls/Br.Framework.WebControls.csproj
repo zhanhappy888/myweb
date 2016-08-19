@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9FE3D362-0CFF-4A5A-80E2-AA8AF21017E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Br.Framework.WebControls</RootNamespace>
+    <AssemblyName>Br.Framework.WebControls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\DevExpress.Data.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\DevExpress.XtraCharts.v14.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.AppCommon">
+      <HintPath>..\Reference\Ems.AppCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Client.Chart">
+      <HintPath>..\Reference\Ems.Client.Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Client.HeatMap">
+      <HintPath>..\Reference\Ems.Client.HeatMap.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Client.Lib">
+      <HintPath>..\Reference\Ems.Client.Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Client.View">
+      <HintPath>..\Reference\Ems.Client.View.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Common">
+      <HintPath>..\Reference\Ems.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Components">
+      <HintPath>..\Reference\Ems.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Data">
+      <HintPath>..\Reference\Ems.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Data.Common">
+      <HintPath>..\Reference\Ems.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Data.Helper">
+      <HintPath>..\Reference\Ems.Data.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.DeviceDriver">
+      <HintPath>..\Reference\Ems.DeviceDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Expression">
+      <HintPath>..\Reference\Ems.Expression.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Interface">
+      <HintPath>..\Reference\Ems.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Map.Net, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\Ems.Map.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Map.NET.WindowsForms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\Ems.Map.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.Messaging">
+      <HintPath>..\Reference\Ems.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.PlugIn">
+      <HintPath>..\Reference\Ems.PlugIn.dll</HintPath>
+    </Reference>
+    <Reference Include="Ems.StdLib">
+      <HintPath>..\Reference\Ems.StdLib.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Reference\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Refine.Common">
+      <HintPath>..\Reference\Refine.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Refine.Oql">
+      <HintPath>..\Reference\Refine.Oql.dll</HintPath>
+    </Reference>
+    <Reference Include="Refine.Orm">
+      <HintPath>..\Reference\Refine.Orm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="brGlobal.cs" />
+    <Compile Include="BrLogin.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChartExpression.cs" />
+    <Compile Include="ChartsPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Client.cs" />
+    <Compile Include="Global.asax.cs" />
+    <Compile Include="TableDiv.cs" />
+    <Compile Include="WebPageScripts.cs" />
+    <Compile Include="LinkQueryServiceProxy.cs" />
+    <Compile Include="MenuTreeView.cs" />
+    <Compile Include="SessionPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientWebControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExcelExpression.cs" />
+    <Compile Include="MapExpression.cs" />
+    <Compile Include="HeatMapExpression.cs" />
+    <Compile Include="BaseMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionMasterPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Br.Common\Br.Common.csproj">
+      <Project>{9AAE3743-EED7-4EBD-93E6-0C0F268C8C28}</Project>
+      <Name>Br.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Br.Framework.Security\Br.Framework.Security.csproj">
+      <Project>{1F71C264-FF1C-4615-9F33-1217F7C1C62C}</Project>
+      <Name>Br.Framework.Security</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="ClassDiagram3.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
